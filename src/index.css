@@ -97,7 +97,7 @@ body ::-webkit-scrollbar-thumb {
 
 .primary-btn-1 {
   color: var(--white);
-  border: 2px solid rgb(182, 114, 46);
+  border: 2px solid #df5cbc;
   font-size: 12px;
   background-color: #1f2235;
 }
@@ -109,15 +109,22 @@ body ::-webkit-scrollbar-thumb {
 
 .primary-btn-1:hover {
   color: #1f2235;
-  border: 2px solid #ff5823;
+  border: 2px solid #df5cbc;
   background-color: #e6e6e9;
 }
 
 .highlighted-btn-1 {
   color: var(--white);
   font-size: 12px;
-  background-color: #ff5823;
+  background-color: #df5cbc;
 }
+
+.highlighted-btn-1:hover {
+  margin: 0 0 0 28px;
+  background-color: #e6e6e9;
+  color: #111;
+}
+
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
     z-index: -900;
