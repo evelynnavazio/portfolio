@@ -74,9 +74,9 @@ const Resume = (props) => {
         title: "Mobile E-shop ",
         duration: { fromDate: "2020", toDate: "2021" },
         description:
-          "An ecommerce application designed to sell products online wth payment system integration",
+          "An ecommerce application designed to sell products online",
         subHeading:
-          "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
+          "Technologies Used:  React Js, Bootstrap.",
       },
       {
         title: "Ecommerce Website ",
@@ -92,7 +92,7 @@ const Resume = (props) => {
       <div className="resume-screen-container" key="education">
         <ResumeHeading
           heading={"Coder House"}
-          subHeading={"Web developer full stack"}
+          subHeading={"Web developer Frontend"}
           fromDate={"2020"}
           toDate={"2021"}
         />
@@ -182,16 +182,16 @@ const Resume = (props) => {
       /* Interests */
       <div className="resume-screen-container" key="interests">
         <ResumeHeading
-          heading="Teaching"
-          description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+          heading="Dance"
+          description="Apart from being a tech enthusiast i also love to dance bachata. Dance is a way to express myself, relax and enjoy."
         />
         <ResumeHeading
           heading="Music"
-          description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+          description="I like to constantly meet new styles of music. My favorite genres are between pop, trap and bachata."
         />
         <ResumeHeading
-          heading="Competitive Gaming"
-          description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+          heading="Cook"
+          description="Cooking increasingly healthy food is something that I always put into practice. I like to take care of my body and my mind with a healthy diet."
         />
       </div>,
     ];
